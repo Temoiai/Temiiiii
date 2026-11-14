@@ -1,0 +1,87 @@
+<resources>
+    <string name="app_name">StreamVault</string>
+
+    <!-- Navigation -->
+    <string name="nav_home">მთავარი</string>
+    <string name="nav_downloads">გადმოწერები</string>
+    <string name="nav_settings">პარამეტრები</string>
+
+    <!-- Home Screen -->
+    <string name="hero_badge">ვიდეო და ფილმების სეიფი</string>
+    <string name="hero_title">ჩასვი ნებისმიერი ვიდეოს ან ფილმის ლინკი</string>
+    <string name="hero_subtitle">შეამოწმე წყარო, გადმოწერე მაღალი სიჩქარით პაუზა/გაგრძელებით და უყურე ოფლაინში</string>
+    <string name="url_input_label">ვიდეოს ან ფილმის ლინკი (URL)</string>
+    <string name="url_input_placeholder">https://example.com/movie.mp4</string>
+    <string name="title_input_label">სათაური (არასავალდებულო)</string>
+    <string name="title_input_placeholder">მაგ: საყვარელი ფილმი HD</string>
+    <string name="action_paste">ჩასმა</string>
+    <string name="action_clear">გასუფთავება</string>
+    <string name="action_inspect">ლინკის შემოწმება</string>
+    <string name="action_download_now">გადმოწერა</string>
+    <string name="action_save_link">ლინკის შენახვა</string>
+    <string name="action_preview_stream">ნახვა</string>
+    <string name="inspecting_link">ლინკის ანალიზი მიმდინარეობს…</string>
+    <string name="found_streams_title">ნაპოვნი ვიდეო წყაროები</string>
+    <string name="direct_video_ready">პირდაპირი ვიდეო ფაილი მზადაა</string>
+    <string name="hls_stream_ready">HLS ვიდეო ნაკადი (M3U8)</string>
+    <string name="recent_saved_title">ბოლოს შენახული ლინკები</string>
+    <string name="resumable_supported">პაუზა / გაგრძელება მხარდაჭერილია</string>
+    <string name="resumable_not_supported">ერთიანი გადმოწერა (პაუზის გარეშე)</string>
+    <string name="unknown_size">ზომა უცნობია</string>
+
+    <!-- Downloads Screen -->
+    <string name="downloads_title">გადმოწერები და ბიბლიოთეკა</string>
+    <string name="filter_all">ყველა</string>
+    <string name="filter_active">მიმდინარე</string>
+    <string name="filter_completed">დასრულებული</string>
+    <string name="filter_saved">შენახული</string>
+    <string name="empty_downloads_title">გადმოწერების სია ცარიელია</string>
+    <string name="empty_downloads_subtitle">დაბრუნდი მთავარ გვერდზე, ჩასვი ნებისმიერი ვიდეოს ან ფილმის ლინკი და დაიწყე გადმოწერა</string>
+    <string name="go_to_home">ლინკის დამატება</string>
+    <string name="status_saved">შენახული ლინკი</string>
+    <string name="status_queued">რიგშია</string>
+    <string name="status_downloading">იტვირთება</string>
+    <string name="status_paused">დაპაუზებულია</string>
+    <string name="status_completed">გადმოწერილია</string>
+    <string name="status_failed">შეცდომა</string>
+    <string name="action_pause">პაუზა</string>
+    <string name="action_resume">გაგრძელება</string>
+    <string name="action_retry">თავიდან</string>
+    <string name="action_play">ყურება</string>
+    <string name="action_share">გაზიარება</string>
+    <string name="action_delete">წაშლა</string>
+
+    <!-- Player Screen -->
+    <string name="player_back">უკან</string>
+    <string name="player_speed">სიჩქარე</string>
+
+    <!-- Settings Screen -->
+    <string name="settings_title">პარამეტრები</string>
+    <string name="settings_network_section">ქსელი და შენახვა</string>
+    <string name="settings_wifi_only">მხოლოდ Wi-Fi-ით გადმოწერა</string>
+    <string name="settings_wifi_only_desc">მობილური ინტერნეტის ეკონომია დიდი ფილმების გადმოწერისას</string>
+    <string name="settings_auto_gallery">ავტომატური შენახვა გალერეაში</string>
+    <string name="settings_auto_gallery_desc">დასრულებული ვიდეოების ექსპორტი Movies/StreamVault საქაღალდეში</string>
+    <string name="settings_appearance_section">გარეგნობა</string>
+    <string name="theme_dark">მუქი კინო-თემა</string>
+    <string name="theme_light">ნათელი თემა</string>
+    <string name="theme_system">სისტემური</string>
+    <string name="settings_storage_section">მეხსიერების მართვა</string>
+    <string name="storage_used_label">დაკავებული ადგილი</string>
+    <string name="clear_temp_cache">დროებითი ფაილების გასუფთავება</string>
+    <string name="supported_formats_title">მხარდაჭერილი ფორმატები და წყაროები</string>
+    <string name="supported_formats_desc">MP4, MKV, WebM, MOV, M4V, 3GP, ღია HLS (M3U8) და ვებ-გვერდებზე ჩაშენებული ვიდეო წყაროები. შეგიძლიათ გააზიაროთ ლინკი პირდაპირ ბრაუზერიდან (Share → StreamVault).</string>
+
+    <!-- Notifications & Errors -->
+    <string name="notif_channel_name">ვიდეოების გადმოწერა</string>
+    <string name="notif_channel_desc">აჩვენებს მიმდინარე ვიდეოსა და ფილმების გადმოწერის პროგრესს</string>
+    <string name="notif_downloading_title">მიმდინარეობს გადმოწერა</string>
+    <string name="msg_clipboard_empty">ბუფერი ცარიელია</string>
+    <string name="msg_invalid_url">გთხოვთ შეიყვანოთ სწორი http/https ლინკი</string>
+    <string name="msg_link_saved">ლინკი შენახულია ბიბლიოთეკაში</string>
+    <string name="msg_download_started">გადმოწერა დაიწყო</string>
+    <string name="msg_wifi_required">ჩართულია მხოლოდ Wi-Fi რეჟიმი. დაუკავშირდით Wi-Fi-ს</string>
+    <string name="msg_cache_cleared">დროებითი ქეში გასუფთავდა</string>
+    <string name="msg_share_chooser">ვიდეოს გაზიარება</string>
+    <string name="msg_no_share_file">ფაილი ვერ მოიძებნა</string>
+</resources>
